@@ -26,7 +26,7 @@ function makeShapeAppear() {
 
 		document.getElementById("shape").style.borderRadius = "50%";
 	} else {
-		document.getElementById("shape").style.borderRadius = "0%"
+		document.getElementById("shape").style.borderRadius = "0%";
 	}
 
 	document.getElementById("shape").style.backgroundColor = getRandomColor();
